@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuzikAdik</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="icon" href="icon.jpg" type="imge/x-icon">
+
+</head>
+<body>
+
+    
+    <section class="sub-header">
+        <nav>
+            <a href="" class="logo">MuzikAdik</a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="cruz.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="genre.html">GENRE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Me
+        </h1>
+    </section>
+
+ <!----contct content-------> 
+
+ <section class="cta">
+    <h1>For Suggestions And Improvements Of This Website<br>Please Contact My Social Medias Account</h1>
+    <div class="socmed-icons">
+        <a href="https://www.facebook.com/cozy.yanyan">
+            <i class='bx bxl-facebook-circle'></i>
+        </a>
+        <a href="https://www.instagram.com/yan_yanniessss/">
+            <i class='bx bxl-instagram-alt' ></i>  
+        </a>
+        <a href="https://twitter.com/prtty_yanyan">
+            <i class='bx bxl-twitter' ></i>
+        </a>
+    </div>
+</section>
+
+
+
+
+ <!----footer-------> 
+ 
+
+<section class="abt">
+    <p>Music Is My Life</p>
+        
+        <div class="icons">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+        </div>
+
+        <p>Made with <i class='bx bx-heart'></i> by Alhianne Jhane Cruz</p>
+</section>
+
+<!--------JavaScript for toggle menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+</body>
+</html>

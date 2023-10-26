@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuzikAdik</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="icon" href="icon.jpg" type="imge/x-icon">
+
+</head>
+<body>
+
+    
+    <section class="sub-header">
+        <nav>
+            <a href="" class="logo">MuzikAdik</a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="cruz.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="genre.html">GENRE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="login.html"></a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT</h1>
+    </section>
+
+ <!----abt content-------> 
+ <section class="about">
+    <div class="main">
+        <img src="abt us.jpg">
+    </div>
+    <div class="about-text">
+        <h1>About My Page</h1>
+        <h5>Music Promotional Website</h5>
+        <p>Music is a universal language that unites people across borders<br>and cultures. Through my website, we celebrate the power of music<br>to create connections, evoke emotions, and inspire change.<br>Join us on a journey through the vast landscape of melodies,<br>rhythms, and lyrics that make up the world of music.</p>
+        <a href="genre.html">Listen Now!</a>
+    </div>
+
+ </section>
+
+<section class="abt">
+    <p>Music Is My Life</p>
+        
+        <div class="icons">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+        </div>
+
+        <p>Made with <i class='bx bx-heart'></i> by Alhianne Jhane Cruz</p>
+</section>
+
+<!--------JavaScript for toggle menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+</body>
+</html>
